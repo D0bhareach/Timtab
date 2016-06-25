@@ -2,8 +2,6 @@ package zxxz.timtab;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.Random;
 
 public class TimtabFrame extends JFrame {
@@ -101,39 +99,40 @@ public class TimtabFrame extends JFrame {
 
 
     private String makeStatusText() {
-        return String.format("Correct: %d\t"
-                + "Incorrect: %d", correctAnswers, incorrectAnswers);
+        return String.format("Correct: %d %s Incorrect: %d"
+                , correctAnswers,"\t", incorrectAnswers);
     }
 
     private void createText() {
 
         int a = util.getRandom();
         int b = util.getRandom();
-        int bn = util.getRandomButton(util.getRandom());
-        boolean flag = util.rand.nextBoolean();
         correct = a*b;
+        util.getRandomButton();
+        int offset = createOffset(correct);
+        boolean flag = util.rand.nextBoolean();
 
         for(int i =0;i<buttonsArray.length;i++){
-            if(i==bn){buttonsArray[i].setText(String.valueOf(correct));}
-            if(flag){
-                buttonsArray[i].setText(String.valueOf(correct +2));
-                flag = invertBoolean(flag);
-            }
-            else{buttonsArray[i].setText(String.valueOf(correct -2));}
+            if(i==util.tempButNum){buttonsArray[i].setText(String.valueOf(correct));}
+            else if(flag){buttonsArray[i].setText(String.valueOf(correct + offset)); flag = !flag;}
+            else{buttonsArray[i].setText(String.valueOf(correct - offset));flag = !flag;}
         }
-        question.setText(String.valueOf(correct));
+        question.setText(a+"x"+b);
     }
 
+    // TODO: 25/06/16 clean it up after decision do I really need a parameter?
 
-
-
-
-
-
-
-    private boolean invertBoolean(boolean flag) {
-        return !flag;
+    private int createOffset(int c){
+        /*
+        if(c%2==0) return 2;
+        //else if(c<=9||util.rand.nextBoolean())return 1;
+        return 1;
+        */
+        if(util.rand.nextBoolean()) return 2;
+        //else if(c<=9||util.rand.nextBoolean())return 1;
+        return 1;
     }
+
 
 
 
@@ -144,60 +143,56 @@ public class TimtabFrame extends JFrame {
         this.setLocation(new Point(mX, mY));
     }
 
-    // TODO: 23/06/16 move action listener as ananimos class to constructor
-    ActionListener answerListener = new ActionListener() {
 
-        public void actionPerformed(ActionEvent e) {
-            JButton button;
-            button = (JButton) e.getSource();
-            int i = Integer.parseInt(button.getText()) ;
-            if (i != correct) {
-                button.setForeground(Color.red);
-                incorrectAnswers++;
-                relocate();
-                repaint();
-            }// end if
-            else {
-                correctAnswers++;
-
-                for (JButton b : buttonsArray) {
-                    b.setForeground(Color.black);
-                }
-                createText();
-            }// end else
-            status.setText(makeStatusText());
-        } // end action
-    };// end ActionListener
-
-   private class Util{
-        Util(){}
+   public class Util{
+        public Util(){}
         private final int arr_size = 100;
         private final int[] arr = new int[arr_size];
-        final Random rand = new Random(10);
+        private int tempButNum = 0;
+        final Random rand = new Random();
 
         {
             int i = 0;
-            while (i++ < arr_size) {
+            while (i< arr_size) {
                 int t = rand.nextInt(10);
                 if (t < 2) continue;
                 arr[i] = t;
+                i++;
             }
 
         }
-
-        int getRandom() {
+       // TODO: 25/06/16 Change it to package private after test
+        public int getRandom() {
             return arr[rand.nextInt(arr_size)];
         }
 
-        int getRandomButton(int i) {
+       // TODO: 25/06/16 Change it to package private after test
+        public void getRandomButton() {
+            int i = getRandom();
+            rand.setSeed(System.nanoTime());
+            boolean flag = rand.nextBoolean();
+
+            System.out.println("Enter method: temp = "+tempButNum+"\ti = "+i);
+
+
             switch (i) {
                 case 9: case 5: case 3: i = 0; break;
                 case 4: case 2: case 7: i = 1; break;
                 case 6: case 8: case 1: i = 2; break;
                 default: i = 0;
             }
-            return i;
+
+            if(i != tempButNum && flag) {
+                tempButNum = i;
+                System.out.println("Exit method: temp = "+tempButNum+"\ti = "+i+".\n");
+                return ;
+            }
+            else if(i != tempButNum && !flag){return;}
+
+            System.out.println("Go to recursion: temp = "+tempButNum+"\ti = "+i+".\n");
+            getRandomButton();
+
         }
 
-    }
+   }
 }
