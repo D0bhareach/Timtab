@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2654649e-fa78-4cfa-b56d-77beb05c3706" name="Default" comment="All changed but ActionListener">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/zxxz/timtab/Multiplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/zxxz/timtab/test_udali.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Multiplication.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Multiplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Timtab.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Timtab.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$1.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/test_udali.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/test_udali.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Timtab.iml" afterPath="$PROJECT_DIR$/Timtab.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" afterPath="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" />
-    </list>
+    <list default="true" id="2654649e-fa78-4cfa-b56d-77beb05c3706" name="Default" comment="All changed but ActionListener" />
     <ignored path="Timtab.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,12 +30,31 @@
       <file leaf-file-name="TimtabFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14867257">
-              <caret line="171" column="44" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.69380534">
+              <caret line="169" column="47" selection-start-line="169" selection-start-column="47" selection-end-line="169" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5681#5682#0" expanded="true" />
-                <element signature="e#5739#5740#0" expanded="true" />
+                <element signature="method#TimtabFrame#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="docComment;method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="docComment;method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="docComment;method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="docComment;method#createText#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="method#createText#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="docComment;method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="docComment;method#relocate#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="method#relocate#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="docComment;class#Util#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="class#Util#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="docComment;method#Util#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="docComment;method#getRandom#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="e#7508#7509#0" expanded="true" />
+                <element signature="e#7566#7567#0" expanded="true" />
+                <element signature="docComment;method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+                <element signature="method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -58,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/tests/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -834,7 +840,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7747899" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4487395" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4487395" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.55126053" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -912,8 +918,27 @@
           <caret line="171" column="16" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5681#5682#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
+            <element signature="method#TimtabFrame#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#Util#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#getRandom#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="e#7508#7509#0" expanded="true" />
+            <element signature="e#7566#7567#0" expanded="true" />
+            <element signature="docComment;method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -934,8 +959,27 @@
           <caret line="171" column="16" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5681#5682#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
+            <element signature="method#TimtabFrame#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#Util#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#getRandom#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="e#7508#7509#0" expanded="true" />
+            <element signature="e#7566#7567#0" expanded="true" />
+            <element signature="docComment;method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -956,8 +1000,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5681#5682#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
+            <element signature="method#TimtabFrame#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#Util#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#getRandom#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="e#7508#7509#0" expanded="true" />
+            <element signature="e#7566#7567#0" expanded="true" />
+            <element signature="docComment;method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -968,8 +1031,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5681#5682#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
+            <element signature="method#TimtabFrame#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#Util#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#getRandom#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="e#7508#7509#0" expanded="true" />
+            <element signature="e#7566#7567#0" expanded="true" />
+            <element signature="docComment;method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1046,7 +1128,7 @@
     <entry file="file://$PROJECT_DIR$/src/tests/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1055,12 +1137,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14867257">
-          <caret line="171" column="44" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.69380534">
+          <caret line="169" column="47" selection-start-line="169" selection-start-column="47" selection-end-line="169" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5681#5682#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
+            <element signature="method#TimtabFrame#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createOffset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#Util#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#getRandom#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="e#7508#7509#0" expanded="true" />
+            <element signature="e#7566#7567#0" expanded="true" />
+            <element signature="docComment;method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
