@@ -3,6 +3,8 @@ package zxxz.timtab;
 import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 
 public class TimtabFrame extends JFrame {
 
@@ -18,6 +20,7 @@ public class TimtabFrame extends JFrame {
     private final JButton answer3 = new JButton();
     private final JButton[] buttonsArray = {answer1, answer2, answer3};
     private final Util util = new Util();
+    private BlockingQueue<Pair> pairs = util.getQueue();
 
     public TimtabFrame() {
         this.setTitle("TimTab");
@@ -33,7 +36,7 @@ public class TimtabFrame extends JFrame {
         question.setFont(questionFont);
         question.setHorizontalAlignment(JLabel.CENTER);
 
-        status.setText(this.makeStatusText());
+        status.setText(makeStatusText());
 
         contentPane.add(question, BorderLayout.NORTH);
         contentPane.add(buttonPanel, BorderLayout.CENTER);
@@ -53,7 +56,7 @@ public class TimtabFrame extends JFrame {
             button.setFont(answerFont);
             button.setHorizontalAlignment(JButton.CENTER);
             button.addActionListener((e)-> {
-              {
+
                         JButton bu;
                         bu = (JButton) e.getSource();
                         int i = Integer.parseInt(bu.getText());
@@ -70,16 +73,16 @@ public class TimtabFrame extends JFrame {
                                 b.setForeground(Color.black);
                             }
                             createText();
-                        }// end else
-                        status.setText(makeStatusText());
-                }
+                        }
+                status.setText(makeStatusText());
             }
-        );}
+            );
+        }
 
     }
 
     /**
-     * Initial setting up panel properties adds JButtons to it.
+     * Set up JPanel properties, adds JButtons to panel.
      * @param panel JPanel is used as Container
      */
     private void initButtonPanel(JPanel panel) {
@@ -107,7 +110,10 @@ public class TimtabFrame extends JFrame {
 
     /**
      * Convenience method used for wrapping String.&nbspformat
-     * @return Formatted Sting for bottom counter.
+     * Used by JFrame constructor to set JLabel status text and
+     * used by action listener to change text of status JLabel
+     * when some answer is given.
+     * @return Formatted Sting for JLabel status.
      */
 
     private String makeStatusText() {
@@ -118,11 +124,12 @@ public class TimtabFrame extends JFrame {
     /**
      * Creates and set text for each JButton.
      * All work for choosing the button, text creation
-     * and setting up the text made in this method.
+     * and setting up the text is made in this method.
      */
     private void createText() {
-        int a = util.getRandom();
-        int b = util.getRandom();
+        Pair p = pairs.poll();
+        int a = p.getFirst().intValue();
+        int b = p.getSecond().intValue();
         correct = a*b;
         util.getRandomButton();
         int offset = createOffset();
@@ -133,11 +140,12 @@ public class TimtabFrame extends JFrame {
             else if(flag){buttonsArray[i].setText(String.valueOf(correct + offset)); flag = !flag;}
             else{buttonsArray[i].setText(String.valueOf(correct - offset));flag = !flag;}
         }
+        util.fillTail();
         question.setText(a+"x"+b);
     }
 
     /**
-     * Set offset by which correct answer will be changed.
+     * Create integer offset by which correct answer will be changed.
      * @return Integer representation of Random boolean selection. Returns 1 or 2.
      */
     private int createOffset(){
@@ -154,38 +162,26 @@ public class TimtabFrame extends JFrame {
         Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
         int mX = util.rand.nextInt(screen.width - frameSize.width);
         int mY = util.rand.nextInt(screen.height - frameSize.height);
-        this.setLocation(new Point(mX, mY));
+        setLocation(new Point(mX, mY));
     }
-
-    // TODO: 25/06/16 Create method to catch the same pairs of множителей at least for three last ones.
-    /*
-    the method should use array[3][2] three pairs.
-    and int parameter - the pair of numbers to check against.
-    Check each pair if it is the same as parameter it it is not
-    use parameter send boolean, if it is the same create random pair again.
-    Perhaps it is a good idea to create array of such pairs before start of
-    program. Use multithreading for it. When array becomes empty recreate it again.
-    edition#2
-    why not to use background thread to construct cache value for next pair.
-    it possible to make it some level of unique say for 3-4 previous  selections.
-     */
 
     /**
      * Utility class used for creating random data for TimtabFrame class.
+     * Main properties of Util class is an array[100] arr of
+     * randomly created integers. For all numbers in array
+     * (i>=2 & i<10) will return true, and ArrayBlockingQueue queue where
+     * five unique pairs of integers are kept.
      */
   private class Util{
-       /**
-        * Use default constructor.
-        * All construction goes inside of initialization block.
-        * Main property of Util class is an array[100] of
-        * randomly created integers. For all numbers in array
-        * (i>=2&&i<10) will return true.
-        */
-        Util(){}
         private final int arr_size = 100;
+        private final int queue_size = 5;
         private final int[] arr = new int[arr_size];
         private int tempButNum = 0;
-        final Random rand = new Random();
+        private final Random rand = new Random();
+        private final BlockingQueue<Pair> queue;
+        Util(){
+            queue = initQueue(queue_size);
+        }
 
         {
             int i = 0;
@@ -198,30 +194,66 @@ public class TimtabFrame extends JFrame {
 
         }
 
+        private BlockingQueue<Pair> getQueue(){return this.queue;}
+
+        private BlockingQueue<Pair> initQueue(int size){
+            BlockingQueue<Pair> q = new ArrayBlockingQueue<>(size);
+            Thread t = new Thread(){
+                @Override
+                public void run() {
+                int i = 0;
+                    while(i<size){
+                        Pair<Integer> pair = new Pair<>(getRandom(), getRandom());
+                        if (!q.contains(pair))
+                            if (q.offer(pair))
+                                i++;
+                    }
+                }
+            };
+            t.start();
+                    return q;
+        }
+
+
+        private void fillTail(){
+            new Thread(){
+                @Override
+                public void run() {
+                    boolean b = false;
+                    while (!b) {
+                            Pair<Integer> pair = new Pair<>(getRandom(), getRandom());
+                            if (!queue.contains(pair))
+                               b =  queue.offer(pair);
+                    }
+                }
+            }.start();
+
+        }
+
        /**
         * Returns randomly selected number from array of [2.&nbsp.&nbsp9].
         * Uses util.Random.nextInt() for randomly select number from array.
-        * @return random integer
+        * @return random integer ranged between 2 and 9 inclusive.
         */
-        int getRandom() {
+        private int getRandom() {
             return arr[rand.nextInt(arr_size)];
         }
 
-       // TODO: 25/06/16 Write test to compare how often are the same buttons selected.
 
         /**
-         * Set tempButNum integer filed of Util class.
+         * Prevent one button usage for correct answer.
+         * Set tempButNum integer property of Util class.
          * tempButNum used for randomly selection of
          * JButton which will be the correct answer for a
-         * question. Class use getRandom method to  get
-         * random number from array of 2-9.
-         * Main thing it act as a  random selector for
-         * button and allows the same selection in randomly
+         * question. tempButNum is used for temp storage
+         * of int property and for accessing it from TimtabFrame.
+         * Main thing it act as a random selector for
+         * button and allows the selection in randomly
          * manner. Random selections are totally unpredictable.
          * Some times it could be several exactly the same selections
          * in the row.
          */
-        void getRandomButton() {
+        private void getRandomButton() {
             int i = getRandom();
 
             switch (i) {
