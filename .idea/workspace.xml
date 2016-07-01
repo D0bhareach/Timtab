@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2654649e-fa78-4cfa-b56d-77beb05c3706" name="Default" comment="All changed but ActionListener">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/tests/Tests.class" afterPath="$PROJECT_DIR$/out/production/Timtab/tests/Tests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Pair.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Pair.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$1.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$2.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/MockUtil.java" afterPath="$PROJECT_DIR$/src/tests/MockUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/Tests.java" afterPath="$PROJECT_DIR$/src/tests/Tests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zxxz/timtab/Pair.java" afterPath="$PROJECT_DIR$/src/zxxz/timtab/Pair.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" afterPath="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" />
@@ -30,85 +39,7 @@
     <favorites_list name="Timtab" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ObjectTry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sandbox/src/ObjectTry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="26" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pair.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/Pair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-              <folding>
-                <element signature="method#hashCode#0;class#Pair#0" expanded="false" />
-                <element signature="docComment;method#equals#0;class#Pair#0" expanded="false" />
-                <element signature="method#equals#0;class#Pair#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimtabFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="280" column="4" selection-start-line="174" selection-start-column="2" selection-end-line="280" selection-end-column="4" />
-              <folding>
-                <element signature="docComment;method#initButtons#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="docComment;method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="docComment;method#createText#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="method#createText#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="docComment;method#createOffset#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="method#createOffset#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="docComment;method#relocate#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="method#relocate#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="initializer##0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="docComment;method#getRandom#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="docComment;method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MockUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/MockUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#MockUtil#0" expanded="false" />
-                <element signature="method#fillTail#0;class#MockUtil#0" expanded="false" />
-                <element signature="docComment;method#getRandom#0;class#MockUtil#0" expanded="false" />
-                <element signature="docComment;method#getRandomButton#0;class#MockUtil#0" expanded="false" />
-                <element signature="method#getRandomButton#0;class#MockUtil#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/Tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8513274">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,11 +79,11 @@
         <option value="$PROJECT_DIR$/src/tests/UtilTest.java" />
         <option value="$PROJECT_DIR$/src/tests/Test.groovy" />
         <option value="$USER_HOME$/.IdeaIC15/system/temp-testng-customsuite.xml" />
-        <option value="$PROJECT_DIR$/Sandbox/src/ObjectTry.java" />
-        <option value="$PROJECT_DIR$/src/zxxz/timtab/Pair.java" />
-        <option value="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" />
-        <option value="$PROJECT_DIR$/src/tests/MockUtil.java" />
         <option value="$PROJECT_DIR$/src/tests/Tests.java" />
+        <option value="$PROJECT_DIR$/src/tests/MockUtil.java" />
+        <option value="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" />
+        <option value="$PROJECT_DIR$/src/zxxz/timtab/Pair.java" />
+        <option value="$PROJECT_DIR$/Sandbox/src/ObjectTry.java" />
       </list>
     </option>
   </component>
@@ -247,42 +178,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Timtab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Timtab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Timtab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Timtab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -326,7 +221,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/Groovy/lib" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
@@ -851,35 +746,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2016.06.25 at 11h 30m 31s.xml">
+    <history-entry file="Tests - 2016.07.01 at 13h 07m 37s.xml">
       <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2016.06.25 at 11h 48m 29s.xml">
+    <history-entry file="Tests - 2016.07.01 at 13h 08m 04s.xml">
       <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2016.06.25 at 11h 49m 13s.xml">
+    <history-entry file="Tests - 2016.07.01 at 13h 09m 34s.xml">
       <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2016.06.25 at 11h 49m 38s.xml">
+    <history-entry file="Tests - 2016.07.01 at 13h 12m 06s.xml">
       <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2016.06.25 at 11h 51m 55s.xml">
+    <history-entry file="Tests - 2016.07.01 at 13h 14m 48s.xml">
       <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2016.06.25 at 11h 58m 56s.xml">
+    <history-entry file="Tests - 2016.07.01 at 13h 24m 28s.xml">
       <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2016.06.25 at 12h 07m 57s.xml">
+    <history-entry file="Tests - 2016.07.01 at 13h 25m 33s.xml">
       <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests - 2016.06.25 at 12h 09m 51s.xml">
+    <history-entry file="Tests - 2016.07.01 at 14h 21m 49s.xml">
       <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_testRandomButton - 2016.06.25 at 11h 52m 30s.xml">
-      <configuration name="Tests.testRandomButton" configurationId="TestNG" />
+    <history-entry file="Tests - 2016.07.01 at 14h 26m 42s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_testRandomButton - 2016.06.25 at 11h 54m 17s.xml">
-      <configuration name="Tests.testRandomButton" configurationId="TestNG" />
+    <history-entry file="Tests - 2016.07.01 at 14h 30m 02s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -893,7 +788,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="720" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -902,12 +797,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3462185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3462185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.41344538" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.41344538" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.58655465" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.58655465" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -935,10 +830,10 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4184874" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.41344538" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.58151263" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.58655465" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -968,7 +863,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="14" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -991,7 +886,6 @@
           <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding>
             <element signature="method#hashCode#0;class#Pair#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Pair#0" expanded="false" />
             <element signature="method#equals#0;class#Pair#0" expanded="false" />
           </folding>
         </state>
@@ -1132,30 +1026,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sandbox/src/ObjectTry.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="26" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="26" />
-          <folding />
+        <state vertical-scroll-proportion="0.37168142">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;method#testRandom#0;class#Tests#0" expanded="false" />
+            <element signature="method#testRandom#0;class#Tests#0" expanded="false" />
+            <element signature="docComment;method#testRandomness#0;class#Tests#0" expanded="false" />
+            <element signature="docComment;method#testPairs#0;class#Tests#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/Pair.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/MockUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        <state vertical-scroll-proportion="-1.7132744">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="method#hashCode#0;class#Pair#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Pair#0" expanded="false" />
-            <element signature="method#equals#0;class#Pair#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#fillTail#0;class#MockUtil#0" expanded="false" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="280" column="4" selection-start-line="174" selection-start-column="2" selection-end-line="280" selection-end-column="4" />
+        <state vertical-scroll-proportion="3.2106194">
+          <caret line="192" column="9" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
           <folding>
             <element signature="docComment;method#initButtons#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
@@ -1176,25 +1076,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/MockUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.17168142">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MockUtil#0" expanded="false" />
-            <element signature="method#fillTail#0;class#MockUtil#0" expanded="false" />
-            <element signature="docComment;method#getRandom#0;class#MockUtil#0" expanded="false" />
-            <element signature="docComment;method#getRandomButton#0;class#MockUtil#0" expanded="false" />
-            <element signature="method#getRandomButton#0;class#MockUtil#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Pair#0" expanded="false" />
+            <element signature="method#equals#0;class#Pair#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/Tests.java">
+    <entry file="file://$PROJECT_DIR$/Sandbox/src/ObjectTry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8513274">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.14867257">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -48,19 +48,20 @@ public class TimtabFrame extends JFrame {
     /**
      * Set up buttons properties and add ActionListener to each.
      * Listener is anonymous class.
+     *
      * @param buttons Array of JButtons
      */
-    private void initButtons(JButton[] buttons){
-        for (JButton button : buttons) {
+    private void initButtons(JButton[] buttons) {
+        for(JButton button : buttons) {
             Font answerFont = new Font("Arial", Font.PLAIN, 36);
             button.setFont(answerFont);
             button.setHorizontalAlignment(JButton.CENTER);
-            button.addActionListener((e)-> {
+            button.addActionListener((e) -> {
 
                         JButton bu;
                         bu = (JButton) e.getSource();
                         int i = Integer.parseInt(bu.getText());
-                        if (i != correct) {
+                        if(i != correct) {
                             bu.setForeground(Color.red);
                             incorrectAnswers++;
                             relocate();
@@ -69,13 +70,13 @@ public class TimtabFrame extends JFrame {
                         else {
                             correctAnswers++;
 
-                            for (JButton b : buttonsArray) {
+                            for(JButton b : buttonsArray) {
                                 b.setForeground(Color.black);
                             }
                             createText();
                         }
-                status.setText(makeStatusText());
-            }
+                        status.setText(makeStatusText());
+                    }
             );
         }
 
@@ -83,6 +84,7 @@ public class TimtabFrame extends JFrame {
 
     /**
      * Set up JPanel properties, adds JButtons to panel.
+     *
      * @param panel JPanel is used as Container
      */
     private void initButtonPanel(JPanel panel) {
@@ -113,12 +115,13 @@ public class TimtabFrame extends JFrame {
      * Used by JFrame constructor to set JLabel status text and
      * used by action listener to change text of status JLabel
      * when some answer is given.
+     *
      * @return Formatted Sting for JLabel status.
      */
 
     private String makeStatusText() {
         return String.format("Correct: %d %s Incorrect: %d"
-                , correctAnswers,"\t", incorrectAnswers);
+                , correctAnswers, "\t", incorrectAnswers);
     }
 
     /**
@@ -130,25 +133,30 @@ public class TimtabFrame extends JFrame {
         Pair p = pairs.poll();
         int a = p.getFirst().intValue();
         int b = p.getSecond().intValue();
-        correct = a*b;
+        correct = a * b;
         util.getRandomButton();
         int offset = createOffset();
         boolean flag = util.rand.nextBoolean();
 
-        for(int i =0;i<buttonsArray.length;i++){
-            if(i==util.tempButNum){buttonsArray[i].setText(String.valueOf(correct));}
-            else if(flag){buttonsArray[i].setText(String.valueOf(correct + offset)); flag = !flag;}
-            else{buttonsArray[i].setText(String.valueOf(correct - offset));flag = !flag;}
+        for(int i = 0; i < buttonsArray.length; i++) {
+            if(i == util.tempButNum) {
+                buttonsArray[i].setText(String.valueOf(correct));
+            } else if(flag) {
+                buttonsArray[i].setText(String.valueOf(correct + offset)); flag = !flag;
+            } else {
+                buttonsArray[i].setText(String.valueOf(correct - offset)); flag = !flag;
+            }
         }
         util.fillTail();
-        question.setText(a+"x"+b);
+        question.setText(a + "x" + b);
     }
 
     /**
      * Create integer offset by which correct answer will be changed.
+     *
      * @return Integer representation of Random boolean selection. Returns 1 or 2.
      */
-    private int createOffset(){
+    private int createOffset() {
         if(util.rand.nextBoolean()) return 2;
         return 1;
     }
@@ -172,69 +180,71 @@ public class TimtabFrame extends JFrame {
      * (i>=2 & i<10) will return true, and ArrayBlockingQueue queue where
      * five unique pairs of integers are kept.
      */
-  private class Util{
-        private final int arr_size = 100;
+    private class Util {
+        private final int arr_size = 1000;
         private final int queue_size = 5;
         private final int[] arr = new int[arr_size];
         private int tempButNum = 0;
         private final Random rand = new Random();
         private final BlockingQueue<Pair> queue;
-        Util(){
+
+        Util() {
             queue = initQueue(queue_size);
         }
 
         {
             int i = 0;
-            while (i< arr_size) {
+            while(i < arr_size) {
                 int t = rand.nextInt(10);
-                if (t < 2) continue;
+                if(t < 2) continue;
                 arr[i] = t;
                 i++;
             }
 
         }
 
-        private BlockingQueue<Pair> getQueue(){return this.queue;}
+        private BlockingQueue<Pair> getQueue() {return this.queue;}
 
-        private BlockingQueue<Pair> initQueue(int size){
+        private BlockingQueue<Pair> initQueue(int size) {
             BlockingQueue<Pair> q = new ArrayBlockingQueue<>(size);
-            Thread t = new Thread(){
+            Thread t = new Thread() {
                 @Override
                 public void run() {
-                int i = 0;
-                    while(i<size){
+                    int i = 0;
+                    while(i < size) {
                         Pair<Integer> pair = new Pair<>(getRandom(), getRandom());
-                        if (!q.contains(pair))
-                            if (q.offer(pair))
+                        if(!q.contains(pair))
+                            if(q.offer(pair))
                                 i++;
                     }
                 }
             };
             t.start();
-                    return q;
+            return q;
         }
 
 
-        private void fillTail(){
-            new Thread(){
+        private void fillTail() {
+            new Thread() {
                 @Override
                 public void run() {
                     boolean b = false;
-                    while (!b) {
-                            Pair<Integer> pair = new Pair<>(getRandom(), getRandom());
-                            if (!queue.contains(pair))
-                               b =  queue.offer(pair);
+                    while(!b) {
+                        Pair<Integer> pair = new Pair<>(getRandom(), getRandom());
+                        if(!queue.contains(pair))
+                            b = queue.offer(pair);
                     }
                 }
             }.start();
 
         }
 
-       /**
-        * Returns randomly selected number from array of [2.&nbsp.&nbsp9].
-        * Uses util.Random.nextInt() for randomly select number from array.
-        * @return random integer ranged between 2 and 9 inclusive.
-        */
+        /**
+         * Returns randomly selected number from array of [2.&nbsp.&nbsp9].
+         * Uses util.Random.nextInt() for randomly select number from array.
+         *
+         * @return random integer ranged between 2 and 9 inclusive.
+         */
         private int getRandom() {
             return arr[rand.nextInt(arr_size)];
         }
@@ -256,15 +266,15 @@ public class TimtabFrame extends JFrame {
         private void getRandomButton() {
             int i = getRandom();
 
-            switch (i) {
+            switch(i) {
                 case 9: case 5: case 1: i = 0; break;
                 case 4: case 2: case 7: i = 1; break;
                 case 6: case 8: case 3: i = 2; break;
                 default: i = 0;
             }
-            if(i==this.tempButNum){
-                    i = rand.nextInt(10);
-                switch (i) {
+            if(i == this.tempButNum) {
+                i = rand.nextInt(10);
+                switch(i) {
                     case 9: case 5: case 1: i = 2; break;
                     case 4: case 2: case 7: i = 1; break;
                     case 6: case 8: case 3: i = 0; break;
@@ -278,5 +288,5 @@ public class TimtabFrame extends JFrame {
 
         }
 
-   }
+    }
 }
