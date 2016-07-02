@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2654649e-fa78-4cfa-b56d-77beb05c3706" name="Default" comment="All changed but ActionListener">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Pair.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Pair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$1.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$2.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zxxz/timtab/Pair.java" afterPath="$PROJECT_DIR$/src/zxxz/timtab/Pair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" afterPath="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" />
     </list>
     <ignored path="Timtab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,15 +32,13 @@
       <file leaf-file-name="TimtabFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75766015">
-              <caret line="166" column="52" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.6035398">
+              <caret line="161" column="7" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
               <folding>
                 <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
                 <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
                 <element signature="method#reset#0;class#TimtabFrame#0" expanded="false" />
                 <element signature="method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-                <element signature="e#9147#9148#0" expanded="true" />
-                <element signature="e#9205#9206#0" expanded="true" />
                 <element signature="docComment;method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
                 <element signature="method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
                 <element signature="docComment;method#createOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
@@ -80,10 +70,18 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="323" column="19" selection-start-line="323" selection-start-column="19" selection-end-line="323" selection-end-column="19" />
               <folding>
-                <element signature="e#6812#6813#0" expanded="true" />
-                <element signature="e#6849#6850#0" expanded="true" />
-                <element signature="e#9697#9698#0" expanded="true" />
-                <element signature="e#9732#9733#0" expanded="true" />
+                <element signature="e#0#49282#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3652#3653#0" expanded="false" />
+                <element signature="e#3708#3709#0" expanded="false" />
+                <element signature="e#3820#3821#0" expanded="false" />
+                <element signature="e#3855#3856#0" expanded="false" />
+                <element signature="e#22895#22896#0" expanded="false" />
+                <element signature="e#22947#22948#0" expanded="false" />
+                <element signature="e#25061#25062#0" expanded="false" />
+                <element signature="e#25093#25094#0" expanded="false" />
+                <element signature="e#28375#28376#0" expanded="false" />
+                <element signature="e#28416#28417#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -175,9 +173,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,13 +252,29 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/Groovy/lib" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="77" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="101" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="107" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1005" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="80" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="100" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="106" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1004" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -825,27 +839,27 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3462185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8235294" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.40359896" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.59640104" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.39831933" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.6016807" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41512606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3462185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41512606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -914,8 +928,58 @@
             <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#reset#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-            <element signature="e#9147#9148#0" expanded="true" />
-            <element signature="e#9205#9206#0" expanded="true" />
+            <element signature="docComment;method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#createOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#createOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="docComment;class#Pair#0" expanded="false" />
+            <element signature="method#Pair#0;class#Pair#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Pair#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#Pair#0" expanded="false" />
+            <element signature="method#equals#0;class#Pair#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="323" column="19" selection-start-line="323" selection-start-column="19" selection-end-line="323" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#49282#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3652#3653#0" expanded="false" />
+            <element signature="e#3708#3709#0" expanded="false" />
+            <element signature="e#3820#3821#0" expanded="false" />
+            <element signature="e#3855#3856#0" expanded="false" />
+            <element signature="e#22895#22896#0" expanded="false" />
+            <element signature="e#22947#22948#0" expanded="false" />
+            <element signature="e#25061#25062#0" expanded="false" />
+            <element signature="e#25093#25094#0" expanded="false" />
+            <element signature="e#28375#28376#0" expanded="false" />
+            <element signature="e#28416#28417#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#reset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="docComment;method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="docComment;method#createOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
@@ -947,8 +1011,6 @@
             <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#reset#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-            <element signature="e#9147#9148#0" expanded="true" />
-            <element signature="e#9205#9206#0" expanded="true" />
             <element signature="docComment;method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="docComment;method#createOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
@@ -980,8 +1042,6 @@
             <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#reset#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-            <element signature="e#9147#9148#0" expanded="true" />
-            <element signature="e#9205#9206#0" expanded="true" />
             <element signature="docComment;method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="docComment;method#createOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
@@ -999,8 +1059,6 @@
             <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#reset#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-            <element signature="e#9147#9148#0" expanded="true" />
-            <element signature="e#9205#9206#0" expanded="true" />
             <element signature="docComment;method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="docComment;method#createOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
@@ -1160,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33274338">
           <caret line="742" column="16" selection-start-line="742" selection-start-column="16" selection-end-line="742" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,25 +1240,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="323" column="19" selection-start-line="323" selection-start-column="19" selection-end-line="323" selection-end-column="19" />
           <folding>
-            <element signature="e#6812#6813#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#9697#9698#0" expanded="true" />
-            <element signature="e#9732#9733#0" expanded="true" />
+            <element signature="e#0#49282#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3652#3653#0" expanded="false" />
+            <element signature="e#3708#3709#0" expanded="false" />
+            <element signature="e#3820#3821#0" expanded="false" />
+            <element signature="e#3855#3856#0" expanded="false" />
+            <element signature="e#22895#22896#0" expanded="false" />
+            <element signature="e#22947#22948#0" expanded="false" />
+            <element signature="e#25061#25062#0" expanded="false" />
+            <element signature="e#25093#25094#0" expanded="false" />
+            <element signature="e#28375#28376#0" expanded="false" />
+            <element signature="e#28416#28417#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75766015">
-          <caret line="166" column="52" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.6035398">
+          <caret line="161" column="7" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
           <folding>
             <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#reset#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
-            <element signature="e#9147#9148#0" expanded="true" />
-            <element signature="e#9205#9206#0" expanded="true" />
             <element signature="docComment;method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="method#setRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
             <element signature="docComment;method#createOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
@@ -1263,7 +1326,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Sandbox</last-edited>
+          <last-edited>Timtab</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
