@@ -1,12 +1,12 @@
 package zxxz.timtab;
 
 /**
- * Box Class for two Numbers.
+ * Used to hold two Numbers.
  * Holder for two numbers with overridden equals method
  * and public getters for properties.
  * Used by TimtabFrame.Util to build ArrayBlockingQueue<Pair<T>>,
  * TibtabFrame use that Queue of Pair to get random pair of integers
- * in CreateText() method.
+ * as factorials in CreateText() method.
  * Created by zxxz on 28/06/16.
  */
 public class Pair<T extends Number> {
@@ -42,14 +42,12 @@ public class Pair<T extends Number> {
 
 
     /**
-     * Checking objects are instances of the same Class and
-     * if properties of objects equals.
-     * Return true if objects are the same class and property a == other.a
-     * and property b == other.b Also is true if other  object is
-     * in upside down order Pair(2,4) = Pair(4,2).
+     * If objects are instances of the same Class and check if properties of objects equals.
+     * Return true if  a == other.a  and  b == other.b Also is true if other  object is
+     * in upside down order Pair(2,4) == Pair(4,2). Check it as a pair of factors.
      *
      * @param other <T extends Number>
-     * @return true if other and this pair are equal.
+     * @return true if other Pair and this Pair are equal.
      */
     @Override
     public boolean equals(Object other) {
