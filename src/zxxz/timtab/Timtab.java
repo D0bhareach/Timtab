@@ -4,6 +4,8 @@ public class Timtab{
 
 
     /**
+     * Main class. Used to create and start instance of main frame.
+     * Timtab is acronym of Time Table.
      * @param args the command line arguments
      */
 
