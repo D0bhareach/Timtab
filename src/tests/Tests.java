@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import zxxz.timtab.Pair;
 
 import java.util.Arrays;
+import java.util.Random;
 
 
 @Test(enabled = true, singleThreaded = true)
@@ -28,7 +29,7 @@ public class Tests {
      * Create random numbers and compare their randomness.
      */
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void testRandomness() {
         int[] ints = new int[8];
         for(int i = 0; i < 8000; i++) {
@@ -55,7 +56,7 @@ public class Tests {
     public void testRandomButton() {
         int[] ints = new int[3];
         for(int i = 0; i < 3000; i++) {
-            int x = util.getRandomButton();
+            int x = util.getRandomButton(new Random().nextInt(3));
             switch(x) {
                 case 0: ints[0] = ints[0] + 1; break;
                 case 1: ints[1] = ints[1] + 1; break;
@@ -75,7 +76,7 @@ public class Tests {
      * Test for Equality when all parameters of Objects are
      * exactly the same.
      */
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void testPairs() {
         Pair<Integer> p = new Pair<>(2, 4);
         //must be true

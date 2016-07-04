@@ -2,7 +2,7 @@ package zxxz.timtab;
 
 /**
  * Holder for two <code>Numbers</code> with overridden equals(Object o) method
- * and public getters for properties. Used by @see{TimtabFrame.Util.initQueue}
+ * and public getters for properties. Used by @see{TimtabFrame.Util}
  * to build ArrayBlockingQueue<E>, and @see{TimtabFrame.Util.fillTail}
  * to offer new Pair to end of the Queue.
  * Than @see{TibtabFrame} use that Queue of pairs to get random and unique
@@ -18,7 +18,7 @@ public class Pair<T extends Number> {
      * Pair is vital object so it must be constructed or program shall exit.
      * @param a T extends Number
      * @param b T extends Number
-     * @throws NullPointerException either a or b is null
+     * @throws NullPointerException if either a or b is null
      */
     public Pair(T a, T b) throws NullPointerException {
         if(a == null && b == null) {
@@ -66,6 +66,12 @@ public class Pair<T extends Number> {
                     (second.equals(o.getSecond()) || second.equals(o.getFirst())) ?
                     true : false;
         }
+    }
+
+    @Override
+    public String toString(){
+        return String.format("(%d,%d)",first,second);
+
     }
 
 }
