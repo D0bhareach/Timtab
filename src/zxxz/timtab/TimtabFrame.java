@@ -7,26 +7,32 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 
+/**
+ *<p> Gui for Timtab application. Has three private classes.
+ * One RandomValueProvider and two Listeners for JButtons.
+ * All methods except  reset() and makeStatusText() are utility methods they
+ * are used to construct Main Window and setup different Components.</p>
+ *<p>Method reset() is the Method where all major work happening. It has
+ * RandomValueProvider as a parameter all work  to create random
+ * data required to Gui and listeners is done in instance of Util Class.</p>
+ */
 public class TimtabFrame extends JFrame {
     /**
      * Number of correct answers. Used in text for status JLabel.
      * Assigned in CorrectAnswerActonListener.
-      */
+     */
     private int correctAnswers;
 
     /**
      * Number of incorrect answers. Used in text for status JLabel.
      * Assigned in IncorrectAnswerActonListener.
-      */
+     */
     private int incorrectAnswers;
+
     /**
      * Randomly selected int used to assign button with correct answer.
      * <code>ButtonsArray[randomButton]</code>. Used by @see{reset},
-     * as well as @see{serRandomButton} and @see{IncorrectAnswerListener}
-     * */
-    /*
-    The whole API looks bad, shall find some replacement for this global variable,
-    but it very handy to access buttons from array by reference number.
+     * and @see{IncorrectAnswerListener}
      */
     private int randomButton;
 
@@ -44,6 +50,7 @@ public class TimtabFrame extends JFrame {
      * CorrectAnswerActionListener, IncorrectAnswerActionListener.
      */
     private final JButton[] buttonsArray = new JButton[3];
+
     //init block
     {
         correctAnswers = 0;
@@ -52,7 +59,7 @@ public class TimtabFrame extends JFrame {
         buttonSize = new Dimension(138, 80);
         status = new JLabel();
         question = new JLabel();
-        for(int i = 0;i<buttonsArray.length; i++){
+        for(int i = 0; i < buttonsArray.length; i++) {
             buttonsArray[i] = new JButton();
         }
     }
@@ -82,8 +89,9 @@ public class TimtabFrame extends JFrame {
 
 
     /**
-     * Set up buttons properties.
-     * @param buttons Array of JButtons
+     * Set up buttons properties: size,font, alignment.
+     *
+     * @param buttons Array of JButtons this.buttonsArray
      */
     private void initButtons(JButton[] buttons) {
         Dimension d = buttonSize;
@@ -98,7 +106,8 @@ public class TimtabFrame extends JFrame {
 
     /**
      * Set up JPanel properties, adds JButtons to panel.
-     *Set GroupLayout as layout for JPanel.
+     * Set GroupLayout as layout for JPanel.
+     *
      * @param panel JPanel which is used as Container.
      */
     private void initButtonPanel(JPanel panel) {
@@ -127,7 +136,7 @@ public class TimtabFrame extends JFrame {
     }
 
     /**
-     * Convenience method format String correct and incorrect answers.
+     * Convenience method format String of correct and incorrect answers.
      * Used by JFrame constructor to set JLabel status text and
      * used by CorrectAnswerActionListener to update text of
      * <code>status</code> JLabel.
@@ -141,11 +150,10 @@ public class TimtabFrame extends JFrame {
 
     /**
      * Creates and set text for each JButton. Resets listeners of JButtons.
-     * Set text of question JLabel. Set common variable randomButton which
+     * Set text of question JLabel. Set variable randomButton which
      * is used by Incorrect AL and this method itself to reference a button
      * with correct answer.
-     * This method use both Listeners, ArrayBlockingQueue pairs,
-     * setRandomButton(), fillTail() and createOffset() methods of Util Class.
+     * This method use both Listeners and methods of Util Class.
      */
     private void reset(RandomValueProvider util) {
         ActionListener correctAnswer = new CorrectAnswerActionListener();
@@ -153,13 +161,13 @@ public class TimtabFrame extends JFrame {
         int correct;
 
         //removing listeners
-        for (JButton b : buttonsArray){
+        for(JButton b : buttonsArray) {
             ActionListener[] listeners = b.getActionListeners();
-            for(ActionListener l: listeners)
+            for(ActionListener l : listeners)
                 b.removeActionListener(l);
 
         }//end of removing listeners
-        Pair p = util.getRandomData();
+        Pair p = (Pair) util.getRandomData();
         int a = p.getFirst().intValue();
         int b = p.getSecond().intValue();
         correct = a * b;
@@ -184,15 +192,14 @@ public class TimtabFrame extends JFrame {
     }
 
 
-
     /**
      * Set frame location center of the Screen
      */
     private void relocate() {
 
         Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
-        int mX = ((screen.width - frameSize.width)/2);
-        int mY = ((screen.height - frameSize.height)/2);
+        int mX = ((screen.width - frameSize.width) / 2);
+        int mY = ((screen.height - frameSize.height) / 2);
         setLocation(new Point(mX, mY));
     }
 
@@ -203,36 +210,42 @@ public class TimtabFrame extends JFrame {
      * in array (i>=2 & i<10) will return true. ArrayBlockingQueue queue holds
      * five unique Pairs<T extends Number>. The queue used to maintain uniques
      * of five last pairs of factorials.
-     *Util implements RandomValueProvider.
+     * Util implements RandomValueProvider.
      */
     @SuppressWarnings("UnnecessaryReturnStatement")
-    private class Util implements RandomValueProvider{
+    private class Util implements RandomValueProvider {
+
         /**
          * Size of int[] arr. Need to be big for randomness.
          */
         private final int arrSize = 1000;
+
         /**
          * Array of integers used to select random integers ranged from 2 to 9
          * inclusive. Used by @see{getRandom}, @see{setRandomButton}
          */
         private final int[] arr = new int[arrSize];
+
         /**
-         * Size of ArrayBlockingQueue used by Util.fillTail.
+         * Size of ArrayBlockingQueue.
          */
         private final int queueSize = 5;
 
         /**
-         * Number of Button selected previously
+         * Number of JButton selected previously.
+         * Checked in getRandomButton to achieve better randomness.
          */
         private int previousButton;
+
         /**
          * Pairs is BlockingQueue of unique instances of Pairs.
          */
-        private ArrayBlockingQueue<Pair> pairs;
+        private final ArrayBlockingQueue<Pair> pairs;
         private final Random rand;
 
         Util() {
             rand = new Random();
+            //init arr
             int i = 0;
             while(i < arrSize) {
                 int t = rand.nextInt(10);
@@ -240,25 +253,26 @@ public class TimtabFrame extends JFrame {
                 arr[i] = t;
                 i++;
             }
+
             //init queue
-            pairs = new ArrayBlockingQueue<>(queueSize,true);
+            pairs = new ArrayBlockingQueue<>(queueSize, true);
 
-        int c = 0;
-        while(c < queueSize)
+            int c = 0;
+            while(c < queueSize)
 
-        {
-            Pair<Integer> pair = new Pair<>(getRandom(), getRandom());
-            if(!pairs.contains(pair))
-                if(pairs.offer(pair))
-                    c++;
+            {
+                Pair<Integer> pair = new Pair<>(getRandom(), getRandom());
+                if(!pairs.contains(pair))
+                    if(pairs.offer(pair))
+                        c++;
+            }
         }
-
-        }//constructor
 
 
         /**
-         *Offer new Pair to the end of Queue if queue size is less than
-         * field of TimtabFrame @see{queueSize}.
+         * Offer new Pair to the end of Queue if queue size is less than
+         * field of @see{queueSize}.
+         *
          * @param queue ArrayBlockingQueue
          */
         private void fillTail(ArrayBlockingQueue<Pair> queue) {
@@ -284,7 +298,6 @@ public class TimtabFrame extends JFrame {
                     }
 
 
-
                 }
             }.start();
 
@@ -303,12 +316,10 @@ public class TimtabFrame extends JFrame {
 
         /**
          * <p>Prevent one button usage for correct answer.
-         * Set @code{randomButton} integer property of Util class.
-         * randomButton used for randomly selection of JButton which
-         * will be the correct answer for a question. randomButton
-         * is used to access JButton with correct answer from TimtabFrame
-         * and IncorrectAnswerActionListener.</p>
-         * <p>Random selections are totally unpredictable.
+         * Set @see{previousButton} integer property of Util class.
+         * Method used for randomly selection of JButton which
+         * will be the correct answer for a question.</p>
+         * <p>Random selection is totally unpredictable.
          * Some times it could be several exactly the same selections
          * in the row.<p/>
          */
@@ -344,11 +355,11 @@ public class TimtabFrame extends JFrame {
             return 1;
         }
 
-        public boolean getRandomBoolean(){
+        public boolean getRandomBoolean() {
             return rand.nextBoolean();
         }
 
-        public Pair getRandomData(){
+        public Pair getRandomData() {
             return pairs.poll();
 
         }
@@ -359,44 +370,45 @@ public class TimtabFrame extends JFrame {
     }
 
 
-
     /**
-     * Listener to events on buttons with incorrect answers.
+     * Listener for button events with incorrect answers.
      * User by @see{reset}.
      */
-    private class IncorrectAnswerActionListener implements ActionListener{
+    private class IncorrectAnswerActionListener implements ActionListener {
 
         /**
          * Set button's with correct answer Background to green and disable
          * buttons with incorrect answers. Increase incorrectAnswers field.
+         *
          * @param e ActionEvent
          */
         @Override
         public void actionPerformed(ActionEvent e) {
-           JButton corr  = buttonsArray[randomButton];
-                incorrectAnswers++;
-                corr.setBackground(new Color(70, 255, 74, 255));
-                for(JButton b : buttonsArray)
-                    if(b!=corr)
-                        b.setEnabled(false);
+            JButton corr = buttonsArray[randomButton];
+            incorrectAnswers++;
+            corr.setBackground(new Color(70, 255, 74, 255));
+            for(JButton b : buttonsArray)
+                if(b != corr)
+                    b.setEnabled(false);
         }
     }
 
     /**
-     * Listener to events on buttons with correct answers.
+     * Listener for button events with correct answers.
      * User by @see{reset}.
      */
-    private class CorrectAnswerActionListener implements ActionListener{
+    private class CorrectAnswerActionListener implements ActionListener {
         /**
          * Increase <code>correctAnswers<code/> set buttons Background color
          * to original value enables buttons and call @see{reset} method.
          * Update text of status JLabel.
+         *
          * @param e ActionEvent
          */
         @Override
         public void actionPerformed(ActionEvent e) {
             Color color = new JButton().getBackground();
-            JButton source = (JButton)e.getSource();
+            JButton source = (JButton) e.getSource();
             if(source.getBackground() == color)
                 correctAnswers++;
 

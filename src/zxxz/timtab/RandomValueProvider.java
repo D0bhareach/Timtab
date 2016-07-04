@@ -5,15 +5,11 @@ package zxxz.timtab;
  * Created by zxxz on 03/07/16.
  */
 
-public interface RandomValueProvider{
-
-        /**
-         * @return randomly created integer value
-         */
+public interface RandomValueProvider<T>{
     int getRandom();
     int getRandomButton();
     int getRandomOffset();
-    Pair getRandomData();
+    T getRandomData();
     boolean getRandomBoolean();
     void reset();
 }
