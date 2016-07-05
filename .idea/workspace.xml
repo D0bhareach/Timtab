@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2654649e-fa78-4cfa-b56d-77beb05c3706" name="Default" comment="Before cleanup.">
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Pair.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/Pair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/RandomValueProvider.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/RandomValueProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$CorrectAnswerActionListener.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$CorrectAnswerActionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$IncorrectAnswerActionListener.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$IncorrectAnswerActionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$1.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame$Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame.class" afterPath="$PROJECT_DIR$/out/production/Timtab/zxxz/timtab/TimtabFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zxxz/timtab/RandomValueProvider.java" afterPath="$PROJECT_DIR$/src/zxxz/timtab/RandomValueProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" afterPath="$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java" />
     </list>
     <ignored path="Timtab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +35,7 @@
       <file leaf-file-name="TimtabFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9331476">
+            <state vertical-scroll-proportion="0.96637166">
               <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
               <folding>
                 <element signature="docComment;field#correctAnswers#0;class#TimtabFrame#0" expanded="false" />
@@ -864,27 +854,27 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3815126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8235294" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3462185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.6554622" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.34453782" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41512606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3815126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3462185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41512606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -949,6 +939,61 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#correctAnswers#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;field#incorrectAnswers#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;field#randomButton#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;field#buttonsArray#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="initializer##0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#TimtabFrame#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtons#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#initButtonPanel#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#makeStatusText#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#reset#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#relocate#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;field#arrSize#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;field#arr#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;field#queueSize#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;field#previousButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;field#pairs#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#Util#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#fillTail#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#getRandom#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#getRandomButton#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#getRandomOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#getRandomOffset#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#getRandomData#0;class#Util#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;class#IncorrectAnswerActionListener#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="class#IncorrectAnswerActionListener#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#IncorrectAnswerActionListener#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#IncorrectAnswerActionListener#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;class#CorrectAnswerActionListener#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="class#CorrectAnswerActionListener#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#CorrectAnswerActionListener#0;class#TimtabFrame#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#CorrectAnswerActionListener#0;class#TimtabFrame#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/RandomValueProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1600,7 +1645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74159294">
           <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1679,7 +1723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zxxz/timtab/TimtabFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9331476">
+        <state vertical-scroll-proportion="0.96637166">
           <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
           <folding>
             <element signature="docComment;field#correctAnswers#0;class#TimtabFrame#0" expanded="false" />
